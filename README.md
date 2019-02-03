@@ -1,3 +1,12 @@
-# Simple VIPER one-screen project #
+# VIPER iOS project in Swift #
 
-Execute `pod update` and build.
+## Description
+
+Find closest property to rent in UAE.
+
+## How to run
+- Execute `pod update`.
+- Build.
+
+## Notes
+Replace `LocalNetworkClient` with `NetworkClient` during initizlization in order to use real network data.
