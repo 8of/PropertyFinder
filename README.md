@@ -5,7 +5,7 @@
 Find closest property to rent in UAE.
 
 ## How to run
-- Execute `pod update`.
+- Execute `pod update` in terminal while in project directory.
 - Build.
 
 ## Notes
