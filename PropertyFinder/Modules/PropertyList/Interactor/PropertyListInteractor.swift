@@ -11,7 +11,7 @@ import Foundation
 final class PropertyListInteractor {
 
   var sort: PropertySortType = .bedsDescending
-  var output: PropertyListInteractorOutput?
+  weak var output: PropertyListInteractorOutput?
   private var propertyListService = PropertyListService(networkClient: LocalNetworkClient()) // Use NetworkClient() for network
   private var loading = false
   private var emptyItemsBeforeAppending = false

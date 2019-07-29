@@ -10,7 +10,7 @@ import Foundation
 
 final class PropertyListPresenter {
 
-  var userInterface: PropertyListViewInput?
+  weak var userInterface: PropertyListViewInput?
 
   private let interactor: PropertyListInteractorInput
   private let sortModuleOutput: PropertySortModuleOutput

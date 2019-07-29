@@ -11,15 +11,11 @@ import UIKit.UIViewController
 final class PropertyListAssembly {
 
   let view: PropertyListViewController
-  private weak var presenter: PropertyListViewOutput?
-  private weak var interactor: AnyObject?
 
   init() {
     let interactor = PropertyListInteractor()
     let viewModelFabric = PropertyViewModelFabric()
-    self.interactor = interactor
     let presenter = PropertyListPresenter(interactor: interactor, viewModelFabric: viewModelFabric, router: PropertyListRouter(), sortModuleOutput: interactor)
-    self.presenter = presenter
     view = PropertyListViewController(output: presenter)
     presenter.userInterface = view
     interactor.output = presenter

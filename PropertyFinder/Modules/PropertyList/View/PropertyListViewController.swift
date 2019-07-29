@@ -10,7 +10,7 @@ import UIKit
 
 final class PropertyListViewController: UIViewController {
 
-  private weak var output: PropertyListViewOutput?
+  private var output: PropertyListViewOutput?
 
   private let collectionView: UICollectionView = {
     let layout = UICollectionViewFlowLayout()
