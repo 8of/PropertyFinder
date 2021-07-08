@@ -437,21 +437,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-PropertyFinder/Pods-BasePods-PropertyFinder-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasePods-PropertyFinder/Pods-BasePods-PropertyFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasePods-PropertyFinder/Pods-BasePods-PropertyFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-PropertyFinder/Pods-BasePods-PropertyFinder-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasePods-PropertyFinder/Pods-BasePods-PropertyFinder-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3C5007F26A5045F44B6A1A18 /* [CP] Check Pods Manifest.lock */ = {
@@ -477,21 +472,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-PropertyFinderTests/Pods-BasePods-PropertyFinderTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasePods-PropertyFinderTests/Pods-BasePods-PropertyFinderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasePods-PropertyFinderTests/Pods-BasePods-PropertyFinderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasePods-PropertyFinderTests/Pods-BasePods-PropertyFinderTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasePods-PropertyFinderTests/Pods-BasePods-PropertyFinderTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C5C2D3594F4504C80BB84BA4 /* [CP] Check Pods Manifest.lock */ = {
